@@ -1,0 +1,11 @@
+[forward] shape=(5820, 5240)
+  fp32, no compile, workers 0 : main=77f36b9470abebcc branch=77f36b9470abebcc  identical=True  differing=0 max|diff|=0
+  autocast, workers 4          : main=77f36b9470abebcc branch=77f36b9470abebcc  identical=True  differing=0 max|diff|=0
+  autocast, workers 4, main x2 : main=77f36b9470abebcc main-again=77f36b9470abebcc  identical=True  differing=0 max|diff|=0  (run-to-run variance)
+  fp32 vs autocast (main)      : differing=0 max|diff|=0  (precision effect, for context)
+[reverse] shape=(5820, 5240)
+  fp32, no compile, workers 0 : main=b2c9386201b22396 branch=b2c9386201b22396  identical=True  differing=0 max|diff|=0
+  autocast, workers 4          : main=b2c9386201b22396 branch=b2c9386201b22396  identical=True  differing=0 max|diff|=0
+  autocast, workers 4, main x2 : main=b2c9386201b22396 main-again=b2c9386201b22396  identical=True  differing=0 max|diff|=0  (run-to-run variance)
+  fp32 vs autocast (main)      : differing=0 max|diff|=0  (precision effect, for context)
+after XResolution = 12700000/4681 = 2713.095492 px/inch -> 9.362000 um/px (expected 9.362000)

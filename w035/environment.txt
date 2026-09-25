@@ -1,0 +1,4 @@
+NVIDIA GeForce RTX 2070 SUPER, 595.99.02
+torch 2.14.0+cu130 cuda 13.0 | tifffile 2026.9.20 | zarr 3.2.1
+d285029a zarr_tasks: create_level_dataset works under zarr 3 (refs #1670) (#1682)
+3758efb0 ink inference: record provenance and physical scale in the output TIFF

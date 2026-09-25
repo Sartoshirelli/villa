@@ -1,0 +1,32 @@
+--- tiffinfo w035_9um_before.tif
+  ImageWidth: 5240
+  ImageLength: 5820
+  BitsPerSample: 8
+  Compression: 5
+  PhotometricInterpretation: 1
+  SamplesPerPixel: 1
+  XResolution: (1, 1)
+  YResolution: (1, 1)
+  ResolutionUnit: 1
+  Software: vesuvius.ink_detection.inference.infer
+  TileWidth: 128
+  TileLength: 128
+  TileOffsets: <1886 entries>
+  TileByteCounts: <1886 entries>
+  pixel sha256: 77f36b9470abebcca853edb5b835845c6d10ddcd611f9b1b79e789dee67f1bf8 shape (5820, 5240)
+--- tiffinfo w035_9um_before_reverse.tif
+  ImageWidth: 5240
+  ImageLength: 5820
+  BitsPerSample: 8
+  Compression: 5
+  PhotometricInterpretation: 1
+  SamplesPerPixel: 1
+  XResolution: (1, 1)
+  YResolution: (1, 1)
+  ResolutionUnit: 1
+  Software: vesuvius.ink_detection.inference.infer
+  TileWidth: 128
+  TileLength: 128
+  TileOffsets: <1886 entries>
+  TileByteCounts: <1886 entries>
+  pixel sha256: b2c9386201b2239624e8d9bbd0701e1b2d4693e9258db9c03c089184edcc2a0a shape (5820, 5240)

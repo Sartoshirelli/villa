@@ -1,0 +1,2 @@
+axes: [('z', 'micrometer'), ('y', 'micrometer'), ('x', 'micrometer')]
+level 0 scale: [{'scale': [9.362, 9.362, 9.362], 'type': 'scale'}, {'translation': [0.0, 0.0, 0.0], 'type': 'translation'}]

@@ -1,0 +1,4 @@
+[forward] main 'default' (fp16) = 77f36b9470abebcc | branch 'default' (fp32) = 83c73817375739b2 -> differing pixels = 1261825 of 27169536 nonzero (4.64%), max|diff| = 2
+[forward] main 'default' (fp16) = 77f36b9470abebcc | branch 'fp16'          = 77f36b9470abebcc -> identical = True (differing 0)
+[reverse] main 'default' (fp16) = b2c9386201b22396 | branch 'default' (fp32) = 55a1846ce848f125 -> differing pixels = 1338612 of 27169536 nonzero (4.93%), max|diff| = 2
+[reverse] main 'default' (fp16) = b2c9386201b22396 | branch 'fp16'          = b2c9386201b22396 -> identical = True (differing 0)

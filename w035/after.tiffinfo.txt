@@ -1,0 +1,36 @@
+--- tiffinfo w035_9um_after.tif
+  ImageWidth: 5240
+  ImageLength: 5820
+  BitsPerSample: 8
+  Compression: 5
+  PhotometricInterpretation: 1
+  ImageDescription: vesuvius_ink_inference v1
+{"vesuvius_ink_inference":{"checkpoint":{"name":"step-075000.pth","sha256":"e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab","size_bytes":138360039,"step":74999,"weights":"model"},"created_utc":"2026-09-25T14:55:36+00:00","input":{"depth_axis_first":true,"level":"0","shape":[28,5820,5240],"zarr":"/mnt/media/vesuvius/data/w035/9um.zarr"},"physical_scale":{...
+  SamplesPerPixel: 1
+  XResolution: (12700000, 4681)
+  YResolution: (12700000, 4681)
+  ResolutionUnit: 2
+  Software: vesuvius.ink_detection.inference.infer
+  TileWidth: 128
+  TileLength: 128
+  TileOffsets: <1886 entries>
+  TileByteCounts: <1886 entries>
+  pixel sha256: 77f36b9470abebcca853edb5b835845c6d10ddcd611f9b1b79e789dee67f1bf8 shape (5820, 5240)
+--- tiffinfo w035_9um_after_reverse.tif
+  ImageWidth: 5240
+  ImageLength: 5820
+  BitsPerSample: 8
+  Compression: 5
+  PhotometricInterpretation: 1
+  ImageDescription: vesuvius_ink_inference v1
+{"vesuvius_ink_inference":{"checkpoint":{"name":"step-075000.pth","sha256":"e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab","size_bytes":138360039,"step":74999,"weights":"model"},"created_utc":"2026-09-25T14:57:05+00:00","input":{"depth_axis_first":true,"level":"0","shape":[28,5820,5240],"zarr":"/mnt/media/vesuvius/data/w035/9um.zarr"},"physical_scale":{...
+  SamplesPerPixel: 1
+  XResolution: (12700000, 4681)
+  YResolution: (12700000, 4681)
+  ResolutionUnit: 2
+  Software: vesuvius.ink_detection.inference.infer
+  TileWidth: 128
+  TileLength: 128
+  TileOffsets: <1886 entries>
+  TileByteCounts: <1886 entries>
+  pixel sha256: b2c9386201b2239624e8d9bbd0701e1b2d4693e9258db9c03c089184edcc2a0a shape (5820, 5240)
