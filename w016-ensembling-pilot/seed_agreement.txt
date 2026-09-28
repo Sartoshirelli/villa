@@ -1,0 +1,3 @@
+pherc0139-w016     r(full)=0.802 r(validation)=0.650 | mean|val 42=85.6 43=92.0 | mean|ink 42=121.6 43=152.6 | mean|no-ink 42=74.7 43=73.7
+pherc0814-46527    r(full)=0.913 r(validation)=0.915 | mean|val 42=101.7 43=104.4 | mean|ink 42=144.0 43=146.2 | mean|no-ink 42=76.5 43=79.5
+pherc1667-w029     r(full)=0.801 r(validation)=0.756 | mean|val 42=90.6 43=93.4 | mean|ink 42=141.2 43=155.8 | mean|no-ink 42=75.5 43=74.7

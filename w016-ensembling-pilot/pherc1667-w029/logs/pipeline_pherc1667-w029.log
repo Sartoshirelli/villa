@@ -1,0 +1,71 @@
+== pherc1667-w029 pipeline start 2026-09-28T11:37:27-04:00
+package: /mnt/media/vesuvius/villa-wt-study/vesuvius/src/vesuvius/__init__.py
+code: feb51b458 Merge branch 'ink-tiff-provenance' into study-combined
+input depth=21 (17 of 21 used per run)
+== s42_w-2: ckpt=hybrid_3d2d-seed42/step-075000.pth window=[0,17) 
+134.79 s wall, 4495340 KB maxrss
+== s42_w-1: ckpt=hybrid_3d2d-seed42/step-075000.pth window=[1,18) 
+133.87 s wall, 4498700 KB maxrss
+== s42_w0: ckpt=hybrid_3d2d-seed42/step-075000.pth window=[2,19) 
+134.25 s wall, 4498992 KB maxrss
+== s42_w1: ckpt=hybrid_3d2d-seed42/step-075000.pth window=[3,20) 
+134.71 s wall, 4498468 KB maxrss
+== s42_w2: ckpt=hybrid_3d2d-seed42/step-075000.pth window=[4,21) 
+135.25 s wall, 4497108 KB maxrss
+== s42_w0_tta: ckpt=hybrid_3d2d-seed42/step-075000.pth window=[2,19) --tta-mirror
+351.74 s wall, 4501900 KB maxrss
+== s43_w-2: ckpt=hybrid_3d2d-seed43/step-075000.pth window=[0,17) 
+135.93 s wall, 4499096 KB maxrss
+== s43_w-1: ckpt=hybrid_3d2d-seed43/step-075000.pth window=[1,18) 
+135.85 s wall, 4500776 KB maxrss
+== s43_w0: ckpt=hybrid_3d2d-seed43/step-075000.pth window=[2,19) 
+135.90 s wall, 4501020 KB maxrss
+== s43_w1: ckpt=hybrid_3d2d-seed43/step-075000.pth window=[3,20) 
+135.93 s wall, 4499324 KB maxrss
+== s43_w2: ckpt=hybrid_3d2d-seed43/step-075000.pth window=[4,21) 
+136.02 s wall, 4497788 KB maxrss
+== s43_w0_tta: ckpt=hybrid_3d2d-seed43/step-075000.pth window=[2,19) --tta-mirror
+353.90 s wall, 4500740 KB maxrss
+== s42_step50k_w0: ckpt=hybrid_3d2d-seed42/step-050000.pth window=[2,19) 
+136.42 s wall, 4499536 KB maxrss
+== s43_step50k_w0: ckpt=hybrid_3d2d-seed43/step-050000.pth window=[2,19) 
+136.61 s wall, 4499668 KB maxrss
+== arms done 2026-09-28T12:21:53-04:00; provenance of one output:
+vesuvius_ink_inference v1
+{"vesuvius_ink_inference":{"checkpoint":{"name":"step-075000.pth","sha256":"2aeaa85a35ef28d7bc7bf3e848c4a6a91385e9132710927fdba41133c4ecb28f","size_bytes":138360231,"step":74999,"weights":"model"},"created_utc":"2026-09-28T16:06:47+00:00","input":{"depth_axis_first":true,"level":"0","shape":[21,9500,7830],"zarr":"/mnt/media/vesuvius/study/pherc1667-w029/pherc1667-w029_pooled.zarr"},"physical_scale":null,"run":{"amp_dtype":null,"batch_size":4,"blend_mode":"hann","compile_mode":"reduce-overhead","compile_requested":false,"device":"cuda","direction":"forward","layer_end"
+labels: {'inklabels_shape': [21, 9500, 7830], 'validation_shape': [21, 9500, 7830], 'z_used': 10} | validation px: 382353 | ink px in region: 88034
+s42_centre                   AUC=0.8702 [0.8225, 0.9138]  AP=0.7354  (1 file(s), 60s)
+s43_centre                   AUC=0.9299 [0.9045, 0.9511]  AP=0.8288  (1 file(s), 59s)
+s42_shift-2                  AUC=0.8862 [0.8456, 0.9222]  AP=0.7574  (1 file(s), 59s)
+s42_shift-1                  AUC=0.8813 [0.8393, 0.9202]  AP=0.7534  (1 file(s), 59s)
+s42_shift+1                  AUC=0.8822 [0.8369, 0.9209]  AP=0.7519  (1 file(s), 59s)
+s42_shift+2                  AUC=0.8857 [0.8372, 0.9261]  AP=0.7386  (1 file(s), 60s)
+s43_shift-2                  AUC=0.8907 [0.8395, 0.9335]  AP=0.7712  (1 file(s), 59s)
+s43_shift-1                  AUC=0.9199 [0.8887, 0.9465]  AP=0.8247  (1 file(s), 59s)
+s43_shift+1                  AUC=0.9164 [0.8833, 0.9418]  AP=0.8101  (1 file(s), 60s)
+s43_shift+2                  AUC=0.9165 [0.8843, 0.9438]  AP=0.8191  (1 file(s), 60s)
+s42_window_ens5              AUC=0.8937 [0.8545, 0.9287]  AP=0.7677  (5 file(s), 62s)
+s43_window_ens5              AUC=0.9259 [0.8966, 0.9497]  AP=0.8278  (5 file(s), 63s)
+seed_ens_centre              AUC=0.9279 [0.9010, 0.9513]  AP=0.8327  (2 file(s), 60s)
+s42_tta                      AUC=0.9198 [0.8881, 0.9479]  AP=0.8174  (1 file(s), 59s)
+s43_tta                      AUC=0.9479 [0.9243, 0.9663]  AP=0.8754  (1 file(s), 59s)
+s42_step50k_centre           AUC=0.8904 [0.8517, 0.9228]  AP=0.7192  (1 file(s), 60s)
+s43_step50k_centre           AUC=0.9227 [0.8880, 0.9493]  AP=0.8306  (1 file(s), 60s)
+seed_ens_step50k             AUC=0.9268 [0.8956, 0.9521]  AP=0.8150  (2 file(s), 61s)
+seeds_x_windows_ens10        AUC=0.9272 [0.8984, 0.9517]  AP=0.8334  (10 file(s), 64s)
+everything_ens12             AUC=0.9348 [0.9097, 0.9568]  AP=0.8459  (12 file(s), 64s)
+s42_step50k_w0         136.42 s wall, 4499536 KB maxrss
+s42_w0                 134.25 s wall, 4498992 KB maxrss
+s42_w0_tta             351.74 s wall, 4501900 KB maxrss
+s42_w-1                133.87 s wall, 4498700 KB maxrss
+s42_w1                 134.71 s wall, 4498468 KB maxrss
+s42_w-2                134.79 s wall, 4495340 KB maxrss
+s42_w2                 135.25 s wall, 4497108 KB maxrss
+s43_step50k_w0         136.61 s wall, 4499668 KB maxrss
+s43_w0                 135.90 s wall, 4501020 KB maxrss
+s43_w0_tta             353.90 s wall, 4500740 KB maxrss
+s43_w-1                135.85 s wall, 4500776 KB maxrss
+s43_w1                 135.93 s wall, 4499324 KB maxrss
+s43_w-2                135.93 s wall, 4499096 KB maxrss
+s43_w2                 136.02 s wall, 4497788 KB maxrss
+== pherc1667-w029 pipeline done 2026-09-28T12:42:36-04:00

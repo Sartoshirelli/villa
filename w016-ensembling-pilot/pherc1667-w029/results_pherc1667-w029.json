@@ -1,0 +1,289 @@
+{
+ "segment": "pherc1667-w029",
+ "labels": {
+  "inklabels_shape": [
+   21,
+   9500,
+   7830
+  ],
+  "validation_shape": [
+   21,
+   9500,
+   7830
+  ],
+  "z_used": 10
+ },
+ "validation_px": 382353,
+ "arms": {
+  "s42_centre": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w0.tif"
+   ],
+   "auc": 0.8701836503280551,
+   "ap": 0.7353583431043927,
+   "auc_ci95": [
+    0.8224862919850029,
+    0.9138372251221406
+   ],
+   "blocks": 127
+  },
+  "s43_centre": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w0.tif"
+   ],
+   "auc": 0.9299222849420117,
+   "ap": 0.8288363119450484,
+   "auc_ci95": [
+    0.9044620986961915,
+    0.9510932964935864
+   ],
+   "blocks": 127
+  },
+  "s42_shift-2": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w-2.tif"
+   ],
+   "auc": 0.8862121139027275,
+   "ap": 0.7574172571482287,
+   "auc_ci95": [
+    0.8455920207817804,
+    0.9222050071709476
+   ],
+   "blocks": 127
+  },
+  "s42_shift-1": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w-1.tif"
+   ],
+   "auc": 0.8813038813089221,
+   "ap": 0.7534363849010299,
+   "auc_ci95": [
+    0.839291373705746,
+    0.9202334646815878
+   ],
+   "blocks": 127
+  },
+  "s42_shift+1": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w1.tif"
+   ],
+   "auc": 0.8822315534377051,
+   "ap": 0.7518878716948738,
+   "auc_ci95": [
+    0.8368675696674984,
+    0.9209292832337506
+   ],
+   "blocks": 127
+  },
+  "s42_shift+2": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w2.tif"
+   ],
+   "auc": 0.885675208647337,
+   "ap": 0.7385886431334381,
+   "auc_ci95": [
+    0.8372236246923825,
+    0.9261027912682106
+   ],
+   "blocks": 127
+  },
+  "s43_shift-2": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w-2.tif"
+   ],
+   "auc": 0.8907354345647983,
+   "ap": 0.7712153714872318,
+   "auc_ci95": [
+    0.8395025437791878,
+    0.9334875305920862
+   ],
+   "blocks": 127
+  },
+  "s43_shift-1": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w-1.tif"
+   ],
+   "auc": 0.9199376594787844,
+   "ap": 0.8247205010192125,
+   "auc_ci95": [
+    0.8887102774624341,
+    0.9464972687309902
+   ],
+   "blocks": 127
+  },
+  "s43_shift+1": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w1.tif"
+   ],
+   "auc": 0.91643655666319,
+   "ap": 0.8101353406327544,
+   "auc_ci95": [
+    0.8832930001704884,
+    0.941808515312454
+   ],
+   "blocks": 127
+  },
+  "s43_shift+2": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w2.tif"
+   ],
+   "auc": 0.9164548446044509,
+   "ap": 0.8190570143024586,
+   "auc_ci95": [
+    0.88431717957422,
+    0.9438286936092176
+   ],
+   "blocks": 127
+  },
+  "s42_window_ens5": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w-2.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w-1.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w0.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w1.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w2.tif"
+   ],
+   "auc": 0.8936690566294697,
+   "ap": 0.7676800744912372,
+   "auc_ci95": [
+    0.8545403341962478,
+    0.9286592540853534
+   ],
+   "blocks": 127
+  },
+  "s43_window_ens5": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w-2.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w-1.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w0.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w1.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w2.tif"
+   ],
+   "auc": 0.9259172248024119,
+   "ap": 0.8277929306987335,
+   "auc_ci95": [
+    0.8966277148259726,
+    0.9497343972167706
+   ],
+   "blocks": 127
+  },
+  "seed_ens_centre": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w0.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w0.tif"
+   ],
+   "auc": 0.9278591162493292,
+   "ap": 0.832700670212631,
+   "auc_ci95": [
+    0.9009772852286458,
+    0.9513347629629885
+   ],
+   "blocks": 127
+  },
+  "s42_tta": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w0_tta.tif"
+   ],
+   "auc": 0.9197787968012731,
+   "ap": 0.8173834294386079,
+   "auc_ci95": [
+    0.8880815996153874,
+    0.9479184284037331
+   ],
+   "blocks": 127
+  },
+  "s43_tta": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w0_tta.tif"
+   ],
+   "auc": 0.9479229766524502,
+   "ap": 0.8754410187715918,
+   "auc_ci95": [
+    0.9243316761899288,
+    0.9662644839857015
+   ],
+   "blocks": 127
+  },
+  "s42_step50k_centre": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_step50k_w0.tif"
+   ],
+   "auc": 0.8904339146023763,
+   "ap": 0.7192261334336533,
+   "auc_ci95": [
+    0.8517224817588657,
+    0.9228423420419124
+   ],
+   "blocks": 127
+  },
+  "s43_step50k_centre": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_step50k_w0.tif"
+   ],
+   "auc": 0.922706688296737,
+   "ap": 0.8306367853264051,
+   "auc_ci95": [
+    0.8880451477038335,
+    0.9493443840259147
+   ],
+   "blocks": 127
+  },
+  "seed_ens_step50k": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_step50k_w0.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_step50k_w0.tif"
+   ],
+   "auc": 0.9267514788634851,
+   "ap": 0.8150088079692592,
+   "auc_ci95": [
+    0.89564223986038,
+    0.952050740272319
+   ],
+   "blocks": 127
+  },
+  "seeds_x_windows_ens10": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w-2.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w-1.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w0.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w1.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w2.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w-2.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w-1.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w0.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w1.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w2.tif"
+   ],
+   "auc": 0.9271674780414135,
+   "ap": 0.8334270235325121,
+   "auc_ci95": [
+    0.8983628615336195,
+    0.9516943902211638
+   ],
+   "blocks": 127
+  },
+  "everything_ens12": {
+   "files": [
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w-2.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w-1.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w0.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w1.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w2.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w-2.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w-1.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w0.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w1.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w2.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s42_w0_tta.tif",
+    "/mnt/media/vesuvius/study/pherc1667-w029/preds/s43_w0_tta.tif"
+   ],
+   "auc": 0.9347870097562112,
+   "ap": 0.845905056348389,
+   "auc_ci95": [
+    0.9097238224687716,
+    0.9567516766955803
+   ],
+   "blocks": 127
+  }
+ }
+}
