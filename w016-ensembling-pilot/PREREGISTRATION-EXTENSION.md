@@ -27,3 +27,9 @@ Local branch `study-combined` = villa `main` 795ca2ba (which now includes khj122
 ## What is not claimed
 
 Three segments, all validation cases of the same training run; no held-out scroll yet (the PHerc0841 renders remain the October item). No retraining, no other resolutions.
+
+## Addendum — a label-free rule, written 2026-09-28 11:39 EDT: after w016 and pherc0814-46527 were scored, before pherc1667-w029's arms ran
+
+Post-hoc observation on the two scored segments: the seeds *disagree* on w016 (Pearson r between the seed42 and seed43 centred predictions: 0.80 on the full canvas, 0.65 inside the validation region) and *agree* on 46527 (0.91 / 0.92). Where they disagreed, averaging them cost 0.023 AUC against the better seed; where they agreed, it gained 0.014. r needs no labels, so it could tell a user of an unread segment whether to pick one seed or to average them.
+
+Prediction for pherc1667-w029, fixed before its arms ran: if r(full canvas) ≥ 0.9, the centred seed ensemble will be within the noise band of, or above, the better seed's centred run; if r(full canvas) ≤ 0.8, it will fall below it. Script: `seed_agreement.py`. This is one exploratory rule tested on one new segment, not part of the original preregistration.

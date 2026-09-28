@@ -1,0 +1,6 @@
+== pherc0814-46527: pooling s3://vesuvius-challenge-open-data/PHerc0814/segments/20260226000000-46527_2um_try2/surface-volumes/2.399um-0.22m-78keV-volume-20260309142202.zarr  2026-09-28T11:20:31-04:00
+tiles=35/35
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:41.26
+	Maximum resident set size (kbytes): 1432284
+pooled: {'0': (21, 2130, 3455)} attrs: {"format": "level2-zmean4-21slice-v1", "source": "s3://vesuvius-challenge-open-data/PHerc0814/segments/20260226000000-46527_2um_try2/surface-volumes/2.399um-0.22m-78keV-volume-20260309142202.zarr", "source_level": "2", "source_shape_zyx": [109, 2130, 3455], "source_z_slice": [13, 97], "z_pool": "rou
+== pherc0814-46527 done 2026-09-28T11:22:12-04:00

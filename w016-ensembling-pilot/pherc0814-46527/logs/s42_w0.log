@@ -1,0 +1,9 @@
+[2026-09-28 11:24:32,790] INFO Loaded model weights from /mnt/media/vesuvius/data/checkpoints/ink_9um/hybrid_3d2d-seed42/step-075000.pth (missing_keys=0 unexpected_keys=0)
+[2026-09-28 11:24:33,243] INFO Selected source layer indices=[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+[2026-09-28 11:24:33,243] INFO Input level=0 shape=(depth=21, height=2130, width=3455) chunks=(128, 128) patch=128 stride=64 requested_overlap=0.500 blend_mode=hann tta_mirror=False
+[2026-09-28 11:24:33,244] INFO No mask supplied; using the entire Zarr
+[2026-09-28 11:24:33,245] WARNING Requested occupancy scan level 3 was not found; using level 0 instead
+[2026-09-28 11:24:33,455] INFO Using occupancy scan level=0 shape=(2130, 3455) scale=(1, 1) nonempty_coverage=58.926%
+[2026-09-28 11:24:33,462] INFO Selected 1213 patches for inference
+[2026-09-28 11:24:45,399] INFO No OME multiscale scale metadata for level=0 of /mnt/media/vesuvius/study/pherc0814-46527/pherc0814-46527_pooled.zarr; the output TIFF gets provenance but no resolution tags
+19.15 s wall, 1816572 KB maxrss
