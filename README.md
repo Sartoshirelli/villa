@@ -9,3 +9,5 @@ only tag dumps, pixel-hash comparisons, a downsampled text-free preview, logs an
   `w035/w035_9um_after_scalebar_proof.png` — ink inference: provenance + physical scale in the output TIFF.
 - `w035/screenshot_pr3_amp_comparison.png`, `w035/amp_comparison.txt` — `--amp-dtype default` means full precision.
 - `w035/run_w035_*.sh` — the exact commands.
+
+- `w016-ensembling-pilot/` — preregistered pilot: inference-time ensembling (depth windows, seeds, TTA, steps) for `ink_9um` on the validation segment pherc0139-w016. Report, figure, scores, logs, scripts. No prediction images (licence).

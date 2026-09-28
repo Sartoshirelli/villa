@@ -1,0 +1,8 @@
+[2026-09-28 00:31:24,514] INFO Loaded model weights from /mnt/media/vesuvius/data/checkpoints/ink_9um/hybrid_3d2d-seed42/step-075000.pth (missing_keys=0 unexpected_keys=0)
+[2026-09-28 00:31:24,704] INFO Selected source layer indices=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+[2026-09-28 00:31:24,705] INFO Input level=0 shape=(depth=21, height=7020, width=7220) chunks=(128, 128) patch=128 stride=64 requested_overlap=0.500 blend_mode=hann tta_mirror=False
+[2026-09-28 00:31:24,705] INFO No mask supplied; using the entire Zarr
+[2026-09-28 00:31:24,706] WARNING Requested occupancy scan level 3 was not found; using level 0 instead
+[2026-09-28 00:31:26,475] INFO Using occupancy scan level=0 shape=(7020, 7220) scale=(1, 1) nonempty_coverage=84.264%
+[2026-09-28 00:31:26,536] INFO Selected 10854 patches for inference
+95.45 s wall, 3388968 KB maxrss

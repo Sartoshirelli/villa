@@ -1,0 +1,14 @@
+s42_step50k_w0         102.56 s wall, 3392152 KB maxrss
+s42_w0                 94.61 s wall, 3388720 KB maxrss
+s42_w0_tta             244.17 s wall, 3387832 KB maxrss
+s42_w-1                95.45 s wall, 3388968 KB maxrss
+s42_w1                 95.97 s wall, 3390252 KB maxrss
+s42_w-2                99.32 s wall, 3380476 KB maxrss
+s42_w2                 93.63 s wall, 3389364 KB maxrss
+s43_step50k_w0         96.88 s wall, 3389404 KB maxrss
+s43_w0                 95.42 s wall, 3388784 KB maxrss
+s43_w0_tta             247.22 s wall, 3388572 KB maxrss
+s43_w-1                95.82 s wall, 3389284 KB maxrss
+s43_w1                 95.67 s wall, 3389876 KB maxrss
+s43_w-2                95.44 s wall, 3388536 KB maxrss
+s43_w2                 95.43 s wall, 3389560 KB maxrss

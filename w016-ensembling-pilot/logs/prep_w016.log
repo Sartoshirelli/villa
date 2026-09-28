@@ -1,0 +1,24 @@
+start 2026-09-28T00:13:38-04:00
+== labels (ink_9um, w016 only)
+  Skips: 0
+Syncing...
+Sync completed.
+pherc0139-w016_inklabels.zarr
+pherc0139-w016_supervision_mask.zarr
+pherc0139-w016_validation_mask.zarr
+== second seed checkpoint
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+ok hybrid_3d2d-seed43/step-075000.pth
+ok hybrid_3d2d-seed42/step-050000.pth
+ok hybrid_3d2d-seed43/step-050000.pth
+== pooled ~9.6 um input from the public 2.399 um volume (level 2, 4x z mean)
+tiles=50/210
+tiles=100/210
+tiles=150/210
+tiles=200/210
+tiles=210/210
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:31.75
+	Maximum resident set size (kbytes): 1525520
+pooled: {'0': (21, 7020, 7220)} attrs: {"format": "level2-zmean4-21slice-v1", "source": "s3://vesuvius-challenge-open-data/PHerc0139/segments/20250108000004-w029_2025010827/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr", "source_level": "2", "source_shape_zyx": [109, 7020, 7220], "source_z_slice": [13, 97], "z_pool": "ro
+== done 2026-09-28T00:29:07-04:00
+exit=0 end 2026-09-28T00:29:07-04:00
