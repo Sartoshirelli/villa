@@ -11,3 +11,7 @@ only tag dumps, pixel-hash comparisons, a downsampled text-free preview, logs an
 - `w035/run_w035_*.sh` — the exact commands.
 
 - `w016-ensembling-pilot/` — preregistered pilot: inference-time ensembling (depth windows, seeds, TTA, steps) for `ink_9um` on the validation segment pherc0139-w016. Report, figure, scores, logs, scripts. No prediction images (licence).
+
+## Licence
+
+Code, scripts and written material on this branch are released under the MIT License (see `LICENSE`), the same licence as ScrollPrize/villa. Images and scores derived from Vesuvius Challenge scroll data remain subject to the Vesuvius Challenge data licence.
