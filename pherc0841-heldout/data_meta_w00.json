@@ -1,0 +1,37 @@
+{
+ "short": "w00",
+ "source": "https://huggingface.co/buckets/scrollprize/datasets/resolve/ink/841/w00",
+ "ct": "w00.zarr/0",
+ "native_um": 4.681,
+ "pooled_um": 9.362,
+ "render_shape": [
+  65,
+  15872,
+  18944
+ ],
+ "label_shape": [
+  15872,
+  18944
+ ],
+ "bbox_native": [
+  2304,
+  13568,
+  9984,
+  16512
+ ],
+ "ct_shape": [
+  32,
+  5632,
+  3264
+ ],
+ "pooling": "planes 0..63, 2x2x2 mean (sum+4)//8; label >=2 of 4 ink; support all 4 supervised (as #1867 xs_fetch.fetch_render)",
+ "labelled_plane_pooled": 16,
+ "n_support": 4278448,
+ "n_ink": 1368784,
+ "n_support_v2": 6060420,
+ "n_ink_v2": 1363830,
+ "missing_chunks": 0,
+ "bytes_read": 4779540480,
+ "fetch_s": 1812.5,
+ "when": "2026-10-09T13:55:26-0400"
+}

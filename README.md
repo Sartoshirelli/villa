@@ -15,3 +15,5 @@ only tag dumps, pixel-hash comparisons, a downsampled text-free preview, logs an
 ## Licence
 
 Code, scripts and written material on this branch are released under the MIT License (see `LICENSE`), the same licence as ScrollPrize/villa. Images and scores derived from Vesuvius Challenge scroll data remain subject to the Vesuvius Challenge data licence.
+
+- `pherc0841-heldout/` — October: the same 14 arms × both depth directions on held-out PHerc0841 renders (w00, ag144, ag174; organisers' labels via #1867), preregistered before any download (`PREREGISTRATION-PHERC0841.md`, sha256 a8b181ef…). Start with `RESULTS.md`. Reproduces #1867's reverse-direction AUCs to within 0.0001. No prediction images.

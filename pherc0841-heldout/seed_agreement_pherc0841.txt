@@ -1,0 +1,3 @@
+w00    ens kept=reverse r_full(kept)=0.628 -> averaging does not help (delta <= 0) | bands: delta < 0 | forward: r_full=0.399 r_sup=0.425 sep42=0.281 sep43=0.279 sepEns=0.249 reverse: r_full=0.628 r_sup=0.719 sep42=0.339 sep43=0.331 sepEns=0.318
+ag144  ens kept=reverse r_full(kept)=0.667 -> averaging does not help (delta <= 0) | bands: delta < 0 | forward: r_full=0.418 r_sup=0.457 sep42=0.296 sep43=0.283 sepEns=0.255 reverse: r_full=0.667 r_sup=0.708 sep42=0.339 sep43=0.322 sepEns=0.314
+ag174  ens kept=reverse r_full(kept)=0.619 -> averaging does not help (delta <= 0) | bands: delta < 0 | forward: r_full=0.423 r_sup=0.417 sep42=0.302 sep43=0.281 sepEns=0.258 reverse: r_full=0.619 r_sup=0.719 sep42=0.355 sep43=0.339 sepEns=0.330

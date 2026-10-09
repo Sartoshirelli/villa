@@ -1,0 +1,5 @@
+ag144: render [65, 16763, 18712] labels (16763, 18712) crop y[2176,5120) x[8576,13824) -> 943 chunks, 1.00 GB to read
+  ag144 rows 128/2944  0.04 GB  2.6 MB/s
+  ag144 rows 256/2944  0.09 GB  2.6 MB/s
+  ag144 rows 384/2944  0.13 GB  2.6 MB/s
+  ag144 rows 512/2944  0.17 GB  2.6 MB/s

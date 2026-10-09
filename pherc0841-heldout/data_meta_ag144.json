@@ -1,0 +1,37 @@
+{
+ "short": "ag144",
+ "source": "https://huggingface.co/buckets/scrollprize/datasets/resolve/ink/841/auto_grown_20260220144552896",
+ "ct": "auto_grown_20260220144552896.zarr/0",
+ "native_um": 4.681,
+ "pooled_um": 9.362,
+ "render_shape": [
+  65,
+  16763,
+  18712
+ ],
+ "label_shape": [
+  16763,
+  18712
+ ],
+ "bbox_native": [
+  2176,
+  5120,
+  8576,
+  13824
+ ],
+ "ct_shape": [
+  32,
+  1472,
+  2624
+ ],
+ "pooling": "planes 0..63, 2x2x2 mean (sum+4)//8; label >=2 of 4 ink; support all 4 supervised (as #1867 xs_fetch.fetch_render)",
+ "labelled_plane_pooled": 16,
+ "n_support": 1918836,
+ "n_ink": 638254,
+ "n_support_v2": 1918836,
+ "n_ink_v2": 635226,
+ "missing_chunks": 0,
+ "bytes_read": 1004257280,
+ "fetch_s": 392.8,
+ "when": "2026-10-09T13:17:06-0400"
+}

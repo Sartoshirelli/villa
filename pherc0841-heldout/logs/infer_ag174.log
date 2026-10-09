@@ -1,0 +1,92 @@
+== ag174 inference start 2026-10-09T13:26:07-04:00
+package: /mnt/media/vesuvius/villa-wt-study/vesuvius/src/vesuvius/__init__.py
+code: feb51b458 Merge branch 'ink-tiff-provenance' into study-combined  dirty: 0 files
+input shape=(32, 1536, 2688) (window [8,25) = 17 planes centred on pooled plane 16)
+== reverse/s42_w0: ckpt=hybrid_3d2d-seed42/step-075000.pth window=[8,25) 
+16.16 s wall, 1801664 KB maxrss
+== reverse/s42_w-2: ckpt=hybrid_3d2d-seed42/step-075000.pth window=[6,23) 
+16.75 s wall, 1793124 KB maxrss
+== reverse/s42_w-1: ckpt=hybrid_3d2d-seed42/step-075000.pth window=[7,24) 
+16.70 s wall, 1801312 KB maxrss
+== reverse/s42_w1: ckpt=hybrid_3d2d-seed42/step-075000.pth window=[9,26) 
+16.85 s wall, 1790496 KB maxrss
+== reverse/s42_w2: ckpt=hybrid_3d2d-seed42/step-075000.pth window=[10,27) 
+16.59 s wall, 1801560 KB maxrss
+== reverse/s42_w0_tta: ckpt=hybrid_3d2d-seed42/step-075000.pth window=[8,25) --tta-mirror
+29.38 s wall, 1806404 KB maxrss
+== reverse/s43_w0: ckpt=hybrid_3d2d-seed43/step-075000.pth window=[8,25) 
+16.85 s wall, 1788372 KB maxrss
+== reverse/s43_w-2: ckpt=hybrid_3d2d-seed43/step-075000.pth window=[6,23) 
+16.96 s wall, 1787208 KB maxrss
+== reverse/s43_w-1: ckpt=hybrid_3d2d-seed43/step-075000.pth window=[7,24) 
+17.58 s wall, 1789636 KB maxrss
+== reverse/s43_w1: ckpt=hybrid_3d2d-seed43/step-075000.pth window=[9,26) 
+16.62 s wall, 1798952 KB maxrss
+== reverse/s43_w2: ckpt=hybrid_3d2d-seed43/step-075000.pth window=[10,27) 
+16.57 s wall, 1791992 KB maxrss
+== reverse/s43_w0_tta: ckpt=hybrid_3d2d-seed43/step-075000.pth window=[8,25) --tta-mirror
+29.33 s wall, 1807804 KB maxrss
+== reverse/s42_step50k_w0: ckpt=hybrid_3d2d-seed42/step-050000.pth window=[8,25) 
+16.95 s wall, 1791836 KB maxrss
+== reverse/s43_step50k_w0: ckpt=hybrid_3d2d-seed43/step-050000.pth window=[8,25) 
+16.28 s wall, 1802016 KB maxrss
+== forward/s42_w0: ckpt=hybrid_3d2d-seed42/step-075000.pth window=[8,25) 
+16.98 s wall, 1791692 KB maxrss
+== forward/s42_w-2: ckpt=hybrid_3d2d-seed42/step-075000.pth window=[6,23) 
+16.46 s wall, 1799920 KB maxrss
+== forward/s42_w-1: ckpt=hybrid_3d2d-seed42/step-075000.pth window=[7,24) 
+16.59 s wall, 1791016 KB maxrss
+== forward/s42_w1: ckpt=hybrid_3d2d-seed42/step-075000.pth window=[9,26) 
+16.52 s wall, 1797188 KB maxrss
+== forward/s42_w2: ckpt=hybrid_3d2d-seed42/step-075000.pth window=[10,27) 
+16.55 s wall, 1784656 KB maxrss
+== forward/s42_w0_tta: ckpt=hybrid_3d2d-seed42/step-075000.pth window=[8,25) --tta-mirror
+30.21 s wall, 1807956 KB maxrss
+== forward/s43_w0: ckpt=hybrid_3d2d-seed43/step-075000.pth window=[8,25) 
+17.25 s wall, 1792076 KB maxrss
+== forward/s43_w-2: ckpt=hybrid_3d2d-seed43/step-075000.pth window=[6,23) 
+16.43 s wall, 1801416 KB maxrss
+== forward/s43_w-1: ckpt=hybrid_3d2d-seed43/step-075000.pth window=[7,24) 
+16.44 s wall, 1794248 KB maxrss
+== forward/s43_w1: ckpt=hybrid_3d2d-seed43/step-075000.pth window=[9,26) 
+16.83 s wall, 1798992 KB maxrss
+== forward/s43_w2: ckpt=hybrid_3d2d-seed43/step-075000.pth window=[10,27) 
+16.75 s wall, 1789204 KB maxrss
+== forward/s43_w0_tta: ckpt=hybrid_3d2d-seed43/step-075000.pth window=[8,25) --tta-mirror
+29.59 s wall, 1806208 KB maxrss
+== forward/s42_step50k_w0: ckpt=hybrid_3d2d-seed42/step-050000.pth window=[8,25) 
+17.20 s wall, 1788968 KB maxrss
+== forward/s43_step50k_w0: ckpt=hybrid_3d2d-seed43/step-050000.pth window=[8,25) 
+16.48 s wall, 1798996 KB maxrss
+== provenance of one output:
+vesuvius_ink_inference v1
+{"vesuvius_ink_inference":{"checkpoint":{"name":"step-075000.pth","sha256":"2aeaa85a35ef28d7bc7bf3e848c4a6a91385e9132710927fdba41133c4ecb28f","size_bytes":138360231,"step":74999,"weights":"model"},"created_utc":"2026-10-09T17:28:16+00:00","input":{"depth_axis_first":true,"level":"0","shape":[32,1536,2688],"zarr":"/mnt/media/vesuvius/data/pherc0841/ag174/ct.zarr"},"physical_scale":null,"run":{"amp_dtype":null,"batch_size":4,"blend_mode":"hann","compile_mode":"reduce-overhead","compile_requested":false,"device":"cuda","direction":"reverse","layer_end":25,"layer_indices":[24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8],"layer_start":8,"mask":null,"overlap":0.5,"patch
+reverse  s42_step50k_w0     16.95 s wall, 1791836 KB maxrss
+reverse  s42_w0             16.16 s wall, 1801664 KB maxrss
+reverse  s42_w0_tta         29.38 s wall, 1806404 KB maxrss
+reverse  s42_w-1            16.70 s wall, 1801312 KB maxrss
+reverse  s42_w1             16.85 s wall, 1790496 KB maxrss
+reverse  s42_w-2            16.75 s wall, 1793124 KB maxrss
+reverse  s42_w2             16.59 s wall, 1801560 KB maxrss
+reverse  s43_step50k_w0     16.28 s wall, 1802016 KB maxrss
+reverse  s43_w0             16.85 s wall, 1788372 KB maxrss
+reverse  s43_w0_tta         29.33 s wall, 1807804 KB maxrss
+reverse  s43_w-1            17.58 s wall, 1789636 KB maxrss
+reverse  s43_w1             16.62 s wall, 1798952 KB maxrss
+reverse  s43_w-2            16.96 s wall, 1787208 KB maxrss
+reverse  s43_w2             16.57 s wall, 1791992 KB maxrss
+forward  s42_step50k_w0     17.20 s wall, 1788968 KB maxrss
+forward  s42_w0             16.98 s wall, 1791692 KB maxrss
+forward  s42_w0_tta         30.21 s wall, 1807956 KB maxrss
+forward  s42_w-1            16.59 s wall, 1791016 KB maxrss
+forward  s42_w1             16.52 s wall, 1797188 KB maxrss
+forward  s42_w-2            16.46 s wall, 1799920 KB maxrss
+forward  s42_w2             16.55 s wall, 1784656 KB maxrss
+forward  s43_step50k_w0     16.48 s wall, 1798996 KB maxrss
+forward  s43_w0             17.25 s wall, 1792076 KB maxrss
+forward  s43_w0_tta         29.59 s wall, 1806208 KB maxrss
+forward  s43_w-1            16.44 s wall, 1794248 KB maxrss
+forward  s43_w1             16.83 s wall, 1798992 KB maxrss
+forward  s43_w-2            16.43 s wall, 1801416 KB maxrss
+forward  s43_w2             16.75 s wall, 1789204 KB maxrss
+== ag174 inference done 2026-10-09T13:34:49-04:00

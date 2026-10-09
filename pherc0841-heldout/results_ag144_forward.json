@@ -1,0 +1,316 @@
+{
+ "segment": "PHerc0841 ag144 (forward)",
+ "validation_px": 1918836,
+ "arms": {
+  "s42_centre": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w0.tif"
+   ],
+   "auc": 0.5983791250049089,
+   "ap": 0.42650627292416193,
+   "auc_ci95": [
+    0.5644808394726964,
+    0.6336660213592681
+   ],
+   "blocks": 525,
+   "sep": 0.2960525712697363,
+   "k": 1
+  },
+  "s43_centre": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w0.tif"
+   ],
+   "auc": 0.5775647065644393,
+   "ap": 0.4200228923354207,
+   "auc_ci95": [
+    0.5400925274064438,
+    0.6157350969184247
+   ],
+   "blocks": 525,
+   "sep": 0.28254544581875984,
+   "k": 1
+  },
+  "s42_shift-2": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w-2.tif"
+   ],
+   "auc": 0.605523863909963,
+   "ap": 0.43607941578769305,
+   "auc_ci95": [
+    0.5719813499733116,
+    0.639212270205073
+   ],
+   "blocks": 525,
+   "sep": 0.30740266617392686,
+   "k": 1
+  },
+  "s42_shift-1": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w-1.tif"
+   ],
+   "auc": 0.5922863661806593,
+   "ap": 0.4167166111621713,
+   "auc_ci95": [
+    0.5569479300206989,
+    0.6257579613794974
+   ],
+   "blocks": 525,
+   "sep": 0.2998522772030464,
+   "k": 1
+  },
+  "s42_shift+1": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w1.tif"
+   ],
+   "auc": 0.5899503116258056,
+   "ap": 0.41362339958447286,
+   "auc_ci95": [
+    0.5540810551981019,
+    0.6252527204848283
+   ],
+   "blocks": 525,
+   "sep": 0.2876612147371745,
+   "k": 1
+  },
+  "s42_shift+2": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w2.tif"
+   ],
+   "auc": 0.5908028788395921,
+   "ap": 0.42273723349056946,
+   "auc_ci95": [
+    0.5538325746182674,
+    0.6276657031568633
+   ],
+   "blocks": 525,
+   "sep": 0.2900668133393647,
+   "k": 1
+  },
+  "s42_tta": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w0_tta.tif"
+   ],
+   "auc": 0.5950030307230693,
+   "ap": 0.439619507128744,
+   "auc_ci95": [
+    0.5565339507768895,
+    0.6310229310233636
+   ],
+   "blocks": 525,
+   "sep": 0.26265780751020745,
+   "k": 1
+  },
+  "s42_step50k_centre": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_step50k_w0.tif"
+   ],
+   "auc": 0.5801161643172943,
+   "ap": 0.4029086661313568,
+   "auc_ci95": [
+    0.5423531456169465,
+    0.6162783860798974
+   ],
+   "blocks": 525,
+   "sep": 0.28586517371953596,
+   "k": 1
+  },
+  "s43_shift-2": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w-2.tif"
+   ],
+   "auc": 0.5499630794363093,
+   "ap": 0.39964060149311964,
+   "auc_ci95": [
+    0.5108848675565874,
+    0.5883409121650289
+   ],
+   "blocks": 525,
+   "sep": 0.29173324191065636,
+   "k": 1
+  },
+  "s43_shift-1": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w-1.tif"
+   ],
+   "auc": 0.5636741545817702,
+   "ap": 0.408979768110279,
+   "auc_ci95": [
+    0.5258258446585041,
+    0.6027432983751555
+   ],
+   "blocks": 525,
+   "sep": 0.2954272339982476,
+   "k": 1
+  },
+  "s43_shift+1": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w1.tif"
+   ],
+   "auc": 0.5892383748509036,
+   "ap": 0.4383721928872913,
+   "auc_ci95": [
+    0.552261386625064,
+    0.6252130021807686
+   ],
+   "blocks": 525,
+   "sep": 0.27538108581202875,
+   "k": 1
+  },
+  "s43_shift+2": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w2.tif"
+   ],
+   "auc": 0.57002039361246,
+   "ap": 0.4101416113775491,
+   "auc_ci95": [
+    0.5313787239227667,
+    0.6054901503078503
+   ],
+   "blocks": 525,
+   "sep": 0.27078475765365345,
+   "k": 1
+  },
+  "s43_tta": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w0_tta.tif"
+   ],
+   "auc": 0.5903572107155813,
+   "ap": 0.4376244748083493,
+   "auc_ci95": [
+    0.5531164037825145,
+    0.6277738130588333
+   ],
+   "blocks": 525,
+   "sep": 0.2536646010439759,
+   "k": 1
+  },
+  "s43_step50k_centre": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_step50k_w0.tif"
+   ],
+   "auc": 0.5967057177317459,
+   "ap": 0.43649928318394726,
+   "auc_ci95": [
+    0.5599633877131761,
+    0.6339972716416324
+   ],
+   "blocks": 525,
+   "sep": 0.2737212940639807,
+   "k": 1
+  },
+  "s42_window_ens5": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w-2.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w-1.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w0.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w1.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w2.tif"
+   ],
+   "auc": 0.6007516470103695,
+   "ap": 0.44237532779171085,
+   "auc_ci95": [
+    0.5644569272671873,
+    0.635677280203314
+   ],
+   "blocks": 525,
+   "sep": 0.2681019706499335,
+   "k": 5
+  },
+  "s43_window_ens5": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w-2.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w-1.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w0.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w1.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w2.tif"
+   ],
+   "auc": 0.5752679507845767,
+   "ap": 0.42772877624428957,
+   "auc_ci95": [
+    0.5364854014705837,
+    0.6141090515466286
+   ],
+   "blocks": 525,
+   "sep": 0.25850991390468375,
+   "k": 5
+  },
+  "seed_ens_centre": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w0.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w0.tif"
+   ],
+   "auc": 0.6069435556244406,
+   "ap": 0.4408031674090166,
+   "auc_ci95": [
+    0.5702659008814003,
+    0.6426559904621192
+   ],
+   "blocks": 525,
+   "sep": 0.25483389879975665,
+   "k": 2
+  },
+  "seed_ens_step50k": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_step50k_w0.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_step50k_w0.tif"
+   ],
+   "auc": 0.5985185743636616,
+   "ap": 0.43623665256508176,
+   "auc_ci95": [
+    0.5611712433621496,
+    0.6353361945067224
+   ],
+   "blocks": 525,
+   "sep": 0.24626899653676537,
+   "k": 2
+  },
+  "seeds_x_windows_ens10": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w-2.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w-1.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w0.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w1.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w2.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w-2.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w-1.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w0.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w1.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w2.tif"
+   ],
+   "auc": 0.6015719586069213,
+   "ap": 0.44958543955702734,
+   "auc_ci95": [
+    0.562617475814708,
+    0.6381665797459358
+   ],
+   "blocks": 525,
+   "sep": 0.24308137387406747,
+   "k": 10
+  },
+  "everything_ens12": {
+   "files": [
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w-2.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w-1.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w0.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w1.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w2.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w-2.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w-1.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w0.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w1.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w2.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s42_w0_tta.tif",
+    "/mnt/media/vesuvius/data/pherc0841/ag144/preds/forward/s43_w0_tta.tif"
+   ],
+   "auc": 0.601916693432298,
+   "ap": 0.4519317330933912,
+   "auc_ci95": [
+    0.5639283848336424,
+    0.6388054305259869
+   ],
+   "blocks": 525,
+   "sep": 0.24035702811763732,
+   "k": 12
+  }
+ }
+}
