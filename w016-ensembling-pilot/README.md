@@ -4,6 +4,8 @@
 
 Preregistered 2026-09-28 before any run ([PREREGISTRATION.md](PREREGISTRATION.md)); every arm below was in the plan. One validation segment; treat as a pilot. **Extended the same day to all three validation segments — see [Extension](#extension-28-sep-2026-same-day-the-other-two-validation-segments) below: the headline holds on 3/3 segments, and one finding sharpens.**
 
+> **Correction, 12 Oct 2026.** Held out on three PHerc0841 segments, the seed42 step-050000 advice below does **not** hold: step-050000 lost to step-075000 on all three (−0.045, −0.004, −0.004 AUC). Don't swap in the earlier step. seed43 step-075000 still stands, but its margin over seed42 is in-distribution only; averaging cleared the rule on 0 of 3 held-out segments too. See [`../pherc0841-heldout/RESULTS.md`](../pherc0841-heldout/RESULTS.md). The text below is left as written on 28 Sep, with inline markers.
+
 ## Setup
 - Segment `pherc0139-w016` = public `20250108000004-w029_2025010827` (PHerc. 0139), one of the three segments the released checkpoints report validation metrics on. Input built with the repo's own `prepare_9um_isotropic_input` from the public 2.399 µm volume (level 2, 4× z mean): 21 × 7020 × 7220, identical to the label canvas. Labels `ink_9um` (validation region 178,146 px; 41,253 ink px inside it).
 - 14 inference runs on an RTX 2070 SUPER, true fp32 (`--amp-dtype default` on the #1890 branch), `--no-compile`, batch 4: ~95 s each, mirror-TTA runs ~245 s. Ensembles are means of the saved uint8 predictions (no extra inference).
@@ -92,7 +94,7 @@ TTA rescues the weaker seed on two of three segments (+0.116 on w016, +0.050 on 
 
 ### A finding the pilot could not see: seed42's final checkpoint is its worst
 
-seed42 step-050000 beats seed42 step-075000 on all three segments (+0.037, +0.020, +0.020 AUC); for seed43 the final step is as good or better (the earlier step scores −0.023, +0.001, −0.007). Three of three is consistent, but each gap sits inside its segment's interval — a strong hint, not a proof: if you run seed42, run its step-050000.
+seed42 step-050000 beats seed42 step-075000 on all three segments (+0.037, +0.020, +0.020 AUC); for seed43 the final step is as good or better (the earlier step scores −0.023, +0.001, −0.007). Three of three is consistent, but each gap sits inside its segment's interval — a strong hint, not a proof: if you run seed42, run its step-050000. *[Withdrawn 12 Oct: reverses held out, see the correction at the top.]*
 
 ### Label-free: do the two seeds agree?
 
@@ -109,7 +111,7 @@ The prediction for w029 was "r ≤ 0.8 → the seed ensemble falls below the bet
 ### What changes in the recommendation
 
 - **Unchanged:** no inference-time ensemble in the tutorial's list beats the best single run on any of the three validation segments. Spend the compute on trying both seeds first.
-- **Sharpened:** seed43 is the safer single choice (better on 2/3, tied on 1/3); if you run seed42, run its step-050000. Averaging the two seeds is a hedge that never wins by more than noise and loses 0.02 when one seed is weak.
+- **Sharpened:** seed43 is the safer single choice (better on 2/3, tied on 1/3); ~~if you run seed42, run its step-050000~~ *(withdrawn 12 Oct: it loses held out)*. Averaging the two seeds is a hedge that never wins by more than noise and loses 0.02 when one seed is weak.
 - **TTA mirror** is worth one run when the best single result still looks poor; on the strong seed it is a coin flip.
 - **Depth-window shifts** are segment-specific; averaging windows is not a substitute for trying a shift.
 
